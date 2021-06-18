@@ -38,7 +38,7 @@ while True:
                     "[+] Enter your desired choice: ")
         time.sleep(2)
         if choose == "1":
-            os.system('cls')
+            os.system('clear')
             def banner():
                 YELLOW(r'''
             __________________  ___________ ___________ _______  ________________________.___.__________________________________________ 
@@ -82,7 +82,7 @@ while True:
             except:
                 print('\033[91m'"The pdf is  ENCRYPTED...................Please enter another file.........................")
         if choose == "2":
-            os.system('cls')
+            os.system('clear')
             def banner():
                 RED('''
             __________________________   _____________________  __________________________________________________________________ 
@@ -127,7 +127,7 @@ while True:
                     continue
 
         if choose == "4":
-            os.system('cls')
+            os.system('clear')
             def banner():
                 MAGENTE(r''' 
                 __________________  ___________     ___________ _______  ________________________.___.__________________________________________ 
@@ -167,7 +167,7 @@ while True:
             except:
                 print("\033[91m[+] Use the right choice of word young one!!!!!!!")
         if choose == "3":
-            os.system('cls')
+            os.system('clear')
             def banner():
                 BLUE(r'''
         
@@ -194,7 +194,7 @@ while True:
                 speaker.say(text)
                 speaker.runAndWait()
         if choose == "5":
-            os.system('cls')
+            os.system('clear')
             def banner():
                 GREEN(r'''
             __________________  ___________     _____________________   _____  ________  _____________________ 
@@ -215,16 +215,12 @@ while True:
             text = page.extractText()
             print(text)
         if choose == "6":
-            os.system('cls')
+            os.system('clear')
             os.close()
     except:
         print("\033[91m[-] Invalid input!!!!!")
         continue
     
-
-
-
-
 
 
 
